@@ -5,6 +5,13 @@
     background-color: #3EAD92;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 5%;
+}
+
 li, a, button {
     font-family: 'Courier New', sans-serif;
     font-weight: 500;
@@ -13,11 +20,17 @@ li, a, button {
     text-decoration: none;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 5%;
+button {
+    padding: 15px 20px;
+    background-color: rgba(252, 176, 56, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(252, 176, 56, 0.8);
 }
 
 .logo {
@@ -39,17 +52,4 @@ header {
 
 .nav-links li a:hover {
     color: #fcb038;
-}
-
-button {
-    padding: 15px 20px;
-    background-color: rgba(252, 176, 56, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(252, 176, 56, 0.8);
 }
